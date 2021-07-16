@@ -1,0 +1,24 @@
+// {
+//  "presets": [
+//    "@vue/app",
+//    ["@babel/preset-env", { "modules": false }]
+//  ],
+//  "plugins": [["component", // 删掉[]
+//    {
+//      "libraryName": "mint-ui",
+//      "style": true,
+//      "styleLibraryName": "theme-chalk"
+//    }
+//  ]]
+//}
+
+ {
+   "presets": [
+     "@vue/app",
+     ["@babel/preset-env", { "modules": false }]
+   ],
+   "plugins": [["component",  {
+     "libraryName": "mint-ui",
+     "style": true
+   }]]
+ }
