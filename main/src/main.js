@@ -23,13 +23,13 @@ registerMicroApps([
     name: 'app1', // app name registered
     entry: '//localhost:9091',
     container: '#yourContainer',
-    activeRule: '/yourActiveRule',
+    activeRule: '/#/app1',
   },
   {
     name: 'app2',
     entry: '//localhost:9092',
     container: '#yourContainer',
-    activeRule: '/yourActiveRule2',
+    activeRule: '/#/app2',
   },
 ]);
 

@@ -23,7 +23,7 @@ import { MessageBox } from 'mint-ui';
       }
     },
     mounted() {
-
+      window.localStorage.setItem('user','app1')
     }
   }
 </script>

@@ -47,9 +47,9 @@ module.exports = {
   chainWebpack: () => {},
   configureWebpack: {
     output: {
-      library: `${name}-[name]`,
+      library: `app2`,
       libraryTarget: 'umd', // 把微应用打包成 umd 库格式
-      jsonpFunction: `webpackJsonp_${name}`
+      jsonpFunction: `webpackJsonp_app2`
     }
   },
   // CSS 相关选项

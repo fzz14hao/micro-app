@@ -21,6 +21,9 @@ import { MessageBox } from 'mint-ui';
         MessageBox('提示', '我是app2');
       }
     },
+    mounted() {
+      window.localStorage.setItem('user','app2')
+    }
   }
 </script>
 

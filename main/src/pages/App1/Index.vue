@@ -19,11 +19,11 @@ import { loadMicroApp } from 'qiankun';
       msg: String
     },
     mounted() {
-      loadMicroApp({
-        name: 'app1',
-        entry: '//localhost:9091',
-        container: '#yourContainer',
-      });
+      // loadMicroApp({
+      //   name: 'app1',
+      //   entry: '//localhost:9091',
+      //   container: '#yourContainer',
+      // });
     }
   }
 </script>
